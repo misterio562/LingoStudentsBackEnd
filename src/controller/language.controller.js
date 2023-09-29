@@ -1,15 +1,15 @@
 import { getConnection } from "./../database/database.js";
 
 const getLanguages = async (req, res) => {
-  try {
-    const connection = await getConnection();
-    const result = await connection.query("SELECT * FROM module");
-    console.log(result);
-    res.json(result);
-  } catch (error) {
-    res.status(500)
-    res.send(error.message)
-  }
+  const languages = {
+    english: "Hello",
+    spanish: "Hola",
+    french: "Bonjour",
+    german: "Hallo",
+    chinese: "你好",
+  };
+
+  res.json(languages);
 };
 
 export const methods = {
