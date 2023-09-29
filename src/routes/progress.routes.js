@@ -1,5 +1,5 @@
 import express from "express";
-import { methods as progressController } from "../controller/progress.controller";
+import { methods as progressController } from "../controller/progress.controller.js";
 
 const router = express.Router();
 

@@ -4,11 +4,11 @@ import cors from 'cors';
 import bodyParser from 'body-parser';
 
 //Router
-import languageRoutes from "./routes/lenguages.routes"
-import validateUserRoutes from "./routes/validateUser.routes"
-import moduleRoutes from "./routes/module.routes"
-import progressRoutes from "./routes/progress.routes"
-import studentRoutes from "./routes/student.routes"
+import languageRoutes from "./routes/lenguages.routes.js"
+import validateUserRoutes from "./routes/validateUser.routes.js"
+import moduleRoutes from "./routes/module.routes.js"
+import progressRoutes from "./routes/progress.routes.js"
+import studentRoutes from "./routes/student.routes.js"
 
 
 const app = express();

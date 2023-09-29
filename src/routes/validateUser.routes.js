@@ -1,5 +1,5 @@
 import express from "express";
-import { methods as validateUserController } from "../controller/validateUser.controller";
+import { methods as validateUserController } from "../controller/validateUser.controller.js";
 
 const router = express.Router();
 
